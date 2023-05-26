@@ -1,5 +1,29 @@
 # CryptoClustering_UnsupervisedML
 
+- - - 
+
+## Overview
+
+- Purpose
+The purpose of this analysis to to categorize into clusters, various Cryptocurrencies based off their market performace. The dataset has market performance metrics like 'last 24-hours,' 'lasr 7 days,' 'last month' etc.
+
+- What is being predicted?
+First, we will be measuring the number of clusters that would best fit this dataset. We will be using the 'Elbow' method. Following that, we will be comparing the clustering of Kmeans using the original data and data that has gone through PCA.
+
+- Goal
+To accurately describe the dataset in a visually appealing manner as acurately as possible.
+
+## Results / Summary
+
+- Orginal Dataset vs PCA
+
+The original dataset when put into a scatter plot with and clustered with Kmeans has some unexplained categorization with points in the middle of a cluster being categorized into a different cluster. After going through PCA, this is resolved. Excess data from longer durations of market change are not detected when plotting 24 Hour and 7 Day performance with the initial clustering attempt. 
+
+- PCA 'Elbow' derived cluster count vs PCA Plot derived
+After going through a PCA, plotting inertia still indicated 4 clusters as optimal. Upon reviewing the clusters in a plot, an attenpt using 3 clusters was completed resulting in a scatter plot showing 3 clusters best respresenting the PCA data.
+
+- - - 
+
 ## Instructions
 
 ### Prepare the Data
